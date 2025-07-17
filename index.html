@@ -1,24 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Log IN</title>
-  <link rel="stylesheet" href="signup.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Delicious recipes and food ideas to make and enjoy. Discover easy meals and tips to earn money online." />
+  <title>Yummy Bites - Make Money with Food</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <header>
+    <h1>Yummy Bites</h1>
+    <p>Your source for delicious recipes that can earn you money!</p>
+  </header>
 
-  <form id="LoginForm">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required>
+  <!-- Ad Placeholder -->
+  <section class="ad">
+    <!-- Google AdSense Code Here -->
+    <p>[Your Ad Will Show Here]</p>
+  </section>
 
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password" required>
+  <main>
+    <h2>Top Recipes</h2>
+    <div class="recipes">
+      <div class="recipe-card">
+        <img src="https://via.placeholder.com/300x200" alt="Spaghetti" />
+        <h3>Classic Spaghetti</h3>
+        <p>Easy 20-minute recipe to delight your family and guests.</p>
+        <a href="#">Read More</a>
+      </div>
+      <div class="recipe-card">
+        <img src="https://via.placeholder.com/300x200" alt="Pancakes" />
+        <h3>Fluffy Pancakes</h3>
+        <p>Perfect for breakfast and a great way to attract food lovers.</p>
+        <a href="#">Read More</a>
+      </div>
+      <div class="recipe-card">
+        <img src="https://via.placeholder.com/300x200" alt="Smoothie" />
+        <h3>Healthy Smoothie</h3>
+        <p>Nutritious and easy to make — a viral favorite on social media.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+  </main>
 
-    <button type="button" onclick="saveData()">Sign Up</button>
-    <button type="button" onclick="check()">Log In</button>
-  </form>
-
-  <script src="index.js"> </script>
+  <footer>
+    <p>&copy; 2025 Yummy Bites. All rights reserved.</p>
+  </footer>
 </body>
 </html>
